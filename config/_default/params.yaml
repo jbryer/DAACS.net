@@ -13,30 +13,32 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Beacon"
+    name: "DAACS"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "DAACS, PBC"
     # Schema.org type for structured data
     type: organization # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "The customer feedback platform for product teams."
+    tagline: "Rethinking college readiness"
     # Site meta description for search engines and social sharing
-    description: "Beacon captures customer feedback from every channel — Slack,
-      email, support, in-app — and uses AI to surface what matters. Turn customer
-      noise into your roadmap."
+    description: "DAACS is suite of technological and social supports designed 
+    to optimize student learning. DAACS provides students personalized feedback 
+    about students' strengths and weaknesses in terms of key academic and 
+    self-regulated learning skills, linking them to the resources to help them 
+    be successful students."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
       # Site-wide social links (rendered in footer, etc.)
       links:
-        - icon: brands/x
-          url: https://x.com/GoOwnable
+#        - icon: brands/x
+#          url: https://x.com/GoOwnable
         - icon: brands/github
-          url: https://github.com/HugoBlox/kit
-        - icon: brands/discord
-          url: https://discord.gg/z8wNYzb
+          url: https://github.com/daacs
+#        - icon: brands/discord
+#          url: https://discord.gg/z8wNYzb
         - icon: brands/linkedin
-          url: https://linkedin.com/company/example
+          url: https://linkedin.com/company/daacspbc
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -49,8 +51,8 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
+      primary: "#41124" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#EDAC15"
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
@@ -105,10 +107,10 @@ hugoblox:
     # Menu alignment
     align: center # left | center | right
     # Feature toggles
-    search: true
-    theme_toggle: true
+    search: false
+    theme_toggle: false
     theme_picker: false
-    language_switcher: true
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -254,8 +256,8 @@ hugoblox:
   # Source code repository for "Edit this page" links
   # ────────────────────────────────────────────────────────────────────────────
   repository:
-    enable: false
-    url: "" # e.g., https://github.com/username/repo
+    enable: true
+    url: "" # e.g., https://github.com/jbryer/DAACS.net
     branch: main
     content_dir: content
 
