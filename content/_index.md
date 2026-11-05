@@ -270,7 +270,7 @@ sections:
             - text: Ability to create custom assessments
               included: true
         - name: Institutions
-          description: "Custom DAACS instance to match your institutional branding and goals."
+          description: Match your institutional branding and goals."
           price:
 #            monthly: "49"
             yearly: "20,000"
