@@ -8,7 +8,7 @@ sections:
     content:
       eyebrow: Diagnostic Assessment and Achievement of College Skills
       title: Rethinking College Readiness
-      text: DAACS is a suite of technological and social supports shown to increase student GPAs.
+      text: DAACS is a suite of technological and social supports shown to increase student success.
       primary_action:
         text: Try DAACS
         url: "https://my.daacs.net"
@@ -108,8 +108,8 @@ sections:
   - block: steps
     id: how-it-works
     content:
-      title: From scattered signals to clear priorities
-      text: Get insights in your first week. No strategy doc required.
+      title: A formative assessment platform designed for student feedback
+#      text: Get insights in your first week. No strategy doc required.
       items:
         - title: RETHINKING COLLEGE READINESS
           text: In the past, newly enrolled college students had little reliable information about their readiness for college-level academic work. DAACS addresses this problem by providing students with detailed information and feedback on their preparation for college, as well as resources for shoring it up. By using DAACS, students can build needed skills in areas of self-regulated learning, writing, reading, and mathematics while enrolled in courses that lead to the completion of their degrees.
@@ -236,8 +236,8 @@ sections:
               included: true
             - text: "Demo versions of the writing, reading, and mathematics"
               included: true
-#            - text: "Summary reports"
-#              included: false
+            - text: "Individual student summary reports"
+              included: false
 #            - text: AI clustering
 #              included: false
 #            - text: Priority support
@@ -254,10 +254,10 @@ sections:
           price_note_yearly: "Billed per classroom up to 35 students"
           highlight: false
           cta:
-            text: Start free trial
-            url: "https://my.daacs.net"
+            text: Contact for more information
+            url: "mailto:sales@daacs.net"
             icon: hero/arrow-right
-            style: primary
+            style: outline
           features:
             - text: Classroom dashboard with analytics
               included: true
@@ -282,7 +282,7 @@ sections:
           cta:
             text: Email to schedule an demo
             url: "mailto:sales@daacs.net"
-            icon: hero/arrow-right
+            icon: email
             style: outline
           features:
             - text: Personalized DAACS instance
@@ -334,11 +334,11 @@ sections:
       title: ""
       text: ""
       items:
-        - name: "Maya Chen"
-          role: "Head of Product at Loop"
+        - name: "Student"
+#          role: "Head of Product at Loop"
           # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "We used to triage feedback in five different tools. Beacon clusters everything for us — and our roadmap finally reflects what users actually ask for."
+#          image: "testimonial-1.jpg"
+          text: "Thanks for the Self-regulated test, it has given me the knowledge need to know the areas I need to improve in. I know the areas that I am strong in but could still learn more. This test has help we to see that I am ready to start classes eager to start to learn more. I am excited to start class to learn new things to build my knowledge that will lead me to my dream career and all my goals in life."
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
