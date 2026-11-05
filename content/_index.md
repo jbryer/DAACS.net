@@ -6,12 +6,12 @@ type: landing
 sections:
   - block: hero
     content:
-      eyebrow: Beacon for product teams
-      title: Turn customer [noise] into your roadmap
-      text: Capture feedback from every channel — Slack, email, support, in-app — and let AI surface what matters.
+      eyebrow: Diagnostic Assessment and Achievement of College Skills
+      title: Rethinking College Readiness
+      text: DAACS is a suite of technological and social supports shown to increase student GPAs.
       primary_action:
-        text: Start free
-        url: "#pricing"
+        text: Try DAACS
+        url: "https://my.daacs.net"
         icon: rocket-launch
         style: gradient
       secondary_action:
@@ -19,17 +19,17 @@ sections:
         url: "#how-it-works"
         icon: play-circle
         style: ghost
-      announcement:
-        badge:
-          text: NEW
-          color: primary
-        text: AI roadmap pull is live.
-        link:
-          text: Read more
-          url: "#features"
+#      announcement:
+#        badge:
+#          text: NEW
+#          color: primary
+#        text: AI roadmap pull is live.
+#        link:
+#          text: Read more
+#          url: "#features"
       trust:
-        stars: 5
-        text: "**4.9/5** from 1,200+ product teams"
+#        stars: 5
+        text: "Used by more than 100,000 students"
       # To switch to a split layout with a product mockup, uncomment the media block
       # below and set `design.layout: split-left` (or `split-right` / `stacked`):
       # media:
@@ -47,7 +47,7 @@ sections:
         fade_bottom: "#101828"
       background:
         # Deep navy base; radial glow paints a soft violet spotlight from above
-        color: "#0a0e27"
+        color: "#411244"
         gradient:
           type: radial
           start: "rgba(124,58,237,0.45)"
@@ -65,74 +65,61 @@ sections:
           orb_count: 2
           positions: ["top-1/3 left-1/4", "bottom-1/3 right-1/4"]
           sizes: ["w-[32rem] h-[32rem]", "w-[26rem] h-[26rem]"]
-  - block: logos
-    content:
-      title: Trusted by product teams at
-      items:
-        - icon: brands/github
-          name: GitHub
-        - icon: brands/google
-          name: Google
-        - icon: brands/microsoft
-          name: Microsoft
-        - icon: brands/nvidia
-          name: NVIDIA
-        - icon: brands/openai
-          name: OpenAI
-        - icon: brands/anthropic
-          name: Anthropic
-        - icon: brands/stripe
-          name: Stripe
-        - icon: brands/vercel
-          name: Vercel
-    design:
-      layout: marquee
-      # White logos read cleanly against the dark band; both styles work — see logos block schema
-      logo_style: white
-      logo_size: md
-      marquee_speed: 35
-      # `dark` activates child components' `dark:` variants, `bg-gray-900` paints the band.
-      # Extends the dark zone from the hero, so the hero's fade-bottom no longer reveals a light strip.
-      css_class: "dark bg-gray-900"
-      spacing:
-        padding: ["2rem", 0, "2rem", 0]
-
-  - block: stats
-    content:
-      items:
-        - statistic: "12k+"
-          description: |
-            Signals captured  
-            per day
-        - statistic: "85%"
-          description: |
-            Less time spent  
-            triaging feedback
-        - statistic: "3.2×"
-          description: |
-            Faster roadmap  
-            decisions
-    design:
-      layout: minimal
-      numbers_gradient: true
-      css_class: "bg-white dark:bg-gray-900"
-      spacing:
-        padding: ["3rem", 0, "3rem", 0]
+#  - block: logos
+#    content:
+#      title: Institutional partners
+#      items:
+#        - icon: brands/github
+#          name: GitHub
+#        - icon: brands/google
+#          name: Google
+#    design:
+#      layout: marquee
+#      # White logos read cleanly against the dark band; both styles work — see logos block schema
+#      logo_style: white
+#      logo_size: md
+#      marquee_speed: 35
+#      # `dark` activates child components' `dark:` variants, `bg-gray-900` paints the band.
+#      # Extends the dark zone from the hero, so the hero's fade-bottom no longer reveals a light strip.
+#      css_class: "dark bg-gray-900"
+#      spacing:
+#        padding: ["2rem", 0, "2rem", 0]
+#  - block: stats
+#    content:
+#      items:
+#        - statistic: "12k+"
+#          description: |
+#            Signals captured  
+#            per day
+#        - statistic: "85%"
+#          description: |
+#            Less time spent  
+#            triaging feedback
+#        - statistic: "3.2×"
+#          description: |
+#            Faster roadmap  
+#            decisions
+#    design:
+#      layout: minimal
+#      numbers_gradient: true
+#      css_class: "bg-white dark:bg-gray-900"
+#      spacing:
+#        padding: ["3rem", 0, "3rem", 0]
   - block: steps
     id: how-it-works
     content:
       title: From scattered signals to clear priorities
       text: Get insights in your first week. No strategy doc required.
       items:
-        - title: Install the widget
-          text: One line of JS or our SDK. Auto-captures from your in-app surveys, Slack channels, support tickets, and email.
-          icon: code-bracket
-        - title: Connect your channels
-          text: Slack, Linear, Notion, Zendesk, Intercom, Jira, and 30+ more — every signal flows into one inbox.
-          icon: link
-        - title: Ship what matters
-          text: Beacon clusters signals into themes, ranks them by frequency and revenue weight, and pushes the winners to your roadmap.
-          icon: rocket-launch
+        - title: RETHINKING COLLEGE READINESS
+          text: In the past, newly enrolled college students had little reliable information about their readiness for college-level academic work. DAACS addresses this problem by providing students with detailed information and feedback on their preparation for college, as well as resources for shoring it up. By using DAACS, students can build needed skills in areas of self-regulated learning, writing, reading, and mathematics while enrolled in courses that lead to the completion of their degrees.
+          icon: school
+        - title: FOCUSSING ON THE WHOLE STUDENT
+          text: Current research suggests that self-regulated learning, mindset, and motivation are better predictors of college success than traditional placement or entrance exams. DAACS places emphasis on these areas and provides students with concrete strategies for becoming a more successful college student.
+          icon: user-graduate
+        - title: PREDICTIVE ANALYTICS
+          text: Data provided by DAACS has been shown to increase the efficacy of predictive analytic models. These data not only help institutions identify their most academically at-risk students, but also provide specific information as to how they are at risk. With this information, more targeted interventions can be developed that better serve students’ needs.
+          icon: chart-line
     design:
       layout: horizontal
       marker_style: icon
@@ -141,7 +128,7 @@ sections:
   - block: features
     id: features
     content:
-      subtitle: Why Beacon
+      subtitle: Why DAACS
       title: Customer voice, organized
       text: Stop chasing feedback across five tools. Let Beacon do the listening, the synthesis, and the routing.
       items:
@@ -221,90 +208,94 @@ sections:
   - block: pricing
     id: pricing
     content:
-      title: "Simple, transparent pricing"
-      subtitle: "Start free. Upgrade when your team grows. No credit card required."
+      title: "Pricing"
+      subtitle: "Always free for individual students."
       billing_toggle:
-        enabled: true
+        enabled: false
         monthly_label: Monthly
         yearly_label: Yearly
         yearly_discount: "Save 20%"
       tiers:
-        - name: Starter
-          description: "Perfect for early-stage teams getting their first signals organized."
+        - name: Students
+          description: "Students can assess their college readiness."
           price:
-            monthly: "0"
+#            monthly: "0"
             yearly: "0"
             currency: "$"
           price_note: "Free forever"
           highlight: false
           cta:
-            text: Get started free
-            url: "https://beacon.example.com/start"
+            text: Take DAACS now
+            url: "https://my.daacs.net"
             icon: hero/arrow-right
             style: outline
           features:
-            - text: "Up to 5 seats"
+            - text: "Self-Regulated Learning Assessment"
               included: true
-            - text: "500 signals / month"
+            - text: "Personalized feedback and links to OERs (including the SRL lab)"
               included: true
-            - text: "3 channel integrations"
+            - text: "Demo versions of the writing, reading, and mathematics"
               included: true
-            - text: AI clustering
-              included: false
-            - text: Priority support
-              included: false
-        - name: Team
-          badge: Most popular
-          description: "For product teams shipping seriously."
+#            - text: "Summary reports"
+#              included: false
+#            - text: AI clustering
+#              included: false
+#            - text: Priority support
+#              included: false
+        - name: Instructors
+#          badge: Most popular
+          description: "Classrooms for your students."
           price:
-            monthly: "19"
-            yearly: "15"
+#            monthly: "19"
+            yearly: "100"
             currency: "$"
-          price_suffix: /seat/month
-          price_note_monthly: "Billed monthly"
-          price_note_yearly: "Billed annually"
-          highlight: true
-          cta:
-            text: Start free trial
-            url: "https://beacon.example.com/start?plan=team"
-            icon: hero/arrow-right
-            style: primary
-          features:
-            - text: Unlimited seats
-              included: true
-            - text: "10,000 signals / month"
-              included: true
-            - text: All 30+ integrations
-              included: true
-            - text: AI clustering and themes
-              included: true
-            - text: Priority support
-              included: false
-        - name: Business
-          description: "Scale with SSO, custom data residency, and dedicated support."
-          price:
-            monthly: "49"
-            yearly: "39"
-            currency: "$"
-          price_suffix: /seat/month
-          price_note_monthly: "Billed monthly"
-          price_note_yearly: "Billed annually"
+          price_suffix: /classroom
+$          price_note_monthly: "Billed monthly"
+          price_note_yearly: "Billed per classroom up to 35 students"
           highlight: false
           cta:
             text: Start free trial
-            url: "https://beacon.example.com/start?plan=business"
+            url: "https://my.daacs.net"
+            icon: hero/arrow-right
+            style: primary
+          features:
+            - text: Classroom dashboard with analytics
+              included: true
+            - text: "Individual student summary reports"
+              included: true
+            - text: Students have access to all SRL, writing, math, and reading assessments
+              included: true
+            - text: DATA exports
+              included: true
+            - text: Ability to create custom assessments
+              included: true
+        - name: Institutions
+          description: "Custom DAACS instance to match your institutional branding and goals."
+          price:
+#            monthly: "49"
+            yearly: "20,000"
+            currency: "$"
+          price_suffix: /year
+#          price_note_monthly: "Billed monthly"
+          price_note_yearly: "Billed annually"
+          highlight: false
+          cta:
+            text: Email to schedule an demo
+            url: "mailto:sales@daacs.net"
             icon: hero/arrow-right
             style: outline
           features:
-            - text: Unlimited seats
+            - text: Personalized DAACS instance
               included: true
-            - text: "100,000 signals / month"
+            - text: "All classroom features"
               included: true
-            - text: All 30+ integrations
+            - text: SSO and LTI integrations
               included: true
-            - text: AI clustering and themes
+            - text: Access to worksheets, trainings, and online community
               included: true
-            - text: Priority support and SSO
+            - text: API access to data
+              included: true
+            - text: Priority support
               included: true
 
   - block: cta-image-paragraph
@@ -353,42 +344,42 @@ sections:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
 
-  - block: faq
-    id: faq
-    content:
-      title: Frequently asked questions
-      subtitle: Everything you need to know before getting started.
-      items:
-        - question: Where is my data hosted?
-          answer: |
-            We default to AWS `us-east-1`, with EU and APAC residency available on Business plans. Beacon is SOC 2 Type II certified and GDPR-compliant — and we never train models on your customer data.
-        - question: Which tools does Beacon integrate with?
-          answer: |
-            30+ integrations across Slack, Linear, Notion, Zendesk, Intercom, Jira, HubSpot, and more. Don't see yours? The Webhooks API takes 5 minutes to wire up.
-        - question: How does the AI clustering work?
-          answer: |
-            Beacon embeds every signal, clusters by semantic similarity, and surfaces themes ranked by frequency, recency, and revenue weight. You see clusters — not raw transcripts — within minutes of installing.
-        - question: Can I migrate from Canny or UserVoice?
-          answer: |
-            Yes. Our import takes a CSV or API key, preserves voter and comment history, and runs in under 10 minutes for most teams. We'll do the migration for you on Business plans.
-        - question: What's the free tier limit?
-          answer: |
-            Up to 5 seats and 500 signals per month, with all core capture and triage features. The free tier doesn't expire.
-        - question: Do you have an SLA?
-          answer: |
-            99.9% uptime SLA on Team and Business plans. Public status page, real-time incident notifications, and post-mortems baked in.
+#  - block: faq
+#    id: faq
+#    content:
+#      title: Frequently asked questions
+#     subtitle: Everything you need to know before getting started.
+#      items:
+#        - question: Where is my data hosted?
+#          answer: |
+#            We default to AWS `us-east-1`, with EU and APAC residency available on Business plans. Beacon is SOC 2 Type II certified and GDPR-compliant — and we never train models on your customer data.
+#        - question: Which tools does Beacon integrate with?
+#          answer: |
+#            30+ integrations across Slack, Linear, Notion, Zendesk, Intercom, Jira, HubSpot, and more. Don't see yours? The Webhooks API takes 5 minutes to wire up.
+#        - question: How does the AI clustering work?
+#          answer: |
+#            Beacon embeds every signal, clusters by semantic similarity, and surfaces themes ranked by frequency, recency, and revenue weight. You see clusters — not raw transcripts — within minutes of installing.
+#        - question: Can I migrate from Canny or UserVoice?
+#          answer: |
+#            Yes. Our import takes a CSV or API key, preserves voter and comment history, and runs in under 10 minutes for most teams. We'll do the migration for you on Business plans.
+#        - question: What's the free tier limit?
+#          answer: |
+#            Up to 5 seats and 500 signals per month, with all core capture and triage features. The free tier doesn't expire.
+#        - question: Do you have an SLA?
+#          answer: |
+#            99.9% uptime SLA on Team and Business plans. Public status page, real-time incident notifications, and post-mortems baked in.
 
   - block: cta-card
     content:
-      title: Stop guessing. Start shipping what your customers want.
-      text: Free for teams under 5 seats — no credit card, no time limit.
+      title: A better way to assess college readiness and provide students the supports they need
+      text: Free for individual students, inexpensive for instructors and institutions
       button:
-        text: Start free
-        url: "#pricing"
+        text: Try DAACS
+        url: "https://my.daacs.net"
     design:
       section_break:
         # Fade the cta-card section's top edge into the white FAQ section above
-        fade_top: "#ffffff"
+        fade_top: "#411244"
       card:
         # Brand-coloured card with subtle gradient depth
         css_class: "bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl"
