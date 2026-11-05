@@ -250,7 +250,7 @@ sections:
             yearly: "100"
             currency: "$"
           price_suffix: /classroom
-$          price_note_monthly: "Billed monthly"
+#          price_note_monthly: "Billed monthly"
           price_note_yearly: "Billed per classroom up to 35 students"
           highlight: false
           cta:
